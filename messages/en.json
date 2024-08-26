@@ -1,0 +1,277 @@
+{
+  "products": {
+    "title": "Our Products",
+    "description": "Discover Nokhba Systems' top fire safety products, from alarms to emergency lights, designed to keep you safe.",
+    "btnShow": "Show More",
+    "tab1": "Fire fighting products",
+    "tab2": "Alarms products",
+    "btnOrder": "Order with whatsapp",
+    "fighting": {
+      "sub1": "Gas Fire Suppression Cylinders",
+      "sub2": "Wall-Mounted Sprinkler Head",
+      "sub3": "Water Sprinkler Head",
+      "sub4": "Brass Water Sprinkler Head",
+      "sub5": "Large Fire Extinguisher Pressure Gauge",
+      "sub6": "Pump Pressure Gauge",
+      "sub7": "Stainless Steel Firefighting Box Single Door Internal",
+      "sub8": "Stainless Steel Firefighting Box Double Door External",
+      "sub9": "Red Firefighting Box Double Door",
+      "sub10": "Foam Firefighting Box",
+      "sub11": "Stainless Steel Wall-Mounted Fire Box",
+      "sub12": "Red Fire Cabinet",
+      "sub14": "Powder Foam and CO2 Fire Extinguishers",
+      "sub15": "Elite Brand 6 kg Powder Fire Extinguisher",
+      "sub16": "Automatic Powder Fire Extinguisher",
+      "sub17": "CO2 Fire Extinguisher",
+      "sub18": "Automatic Fire Extinguisher",
+      "sub19": "Automatic Fire Extinguisher 1",
+      "sub20": "Powder Fire Extinguisher",
+      "sub21": "Trolley Foam Fire Extinguisher Size 25 Liters",
+      "sub22": "Trolley Dry Powder Fire Extinguisher Size 25 kg",
+      "sub23": "CO2 Fire Extinguisher Size 2 kg",
+      "sub24": "Fire Hydrant",
+      "sub25": "Steel Fittings",
+      "sub26": "Groove Fittings",
+      "sub27": "Various Fittings",
+      "sub28": "Flange with coupling",
+      "sub29": "Ansul Firefighting Cabinet",
+      "sub30": "Novec Gas Firefighting Cabinet",
+      "sub31": "Pump Control Panel",
+      "sub32": "Multi-Temperature Water Sprinkler Set",
+      "sub33": "OSY Gate Valve",
+      "sub34": "Valve",
+      "sub35": "OSY Valve",
+      "sub36": "PRV Valve",
+      "sub37": "Test Valve",
+      "sub38": "Main Control Valve",
+      "sub39": "Main Control Valve",
+      "sub40": "Air Release Valve",
+      "sub41": "Check Valve",
+      "sub42": "Fire Pump",
+      "sub43": "Triple Fire Pump",
+      "sub44": "Dual Electric and Jockey Fire Pump",
+      "sub45": "Jockey Pump",
+      "sub46": "Diesel Fire Pump",
+      "sub47": "ULFM Diesel Fire Pump",
+      "sub48": "Vertical Diesel Fire Pump",
+      "sub49": "Electric Fire Pump",
+      "sub50": "Single Electric Fire Pump",
+      "sub51": "Pressure Switch Sensor",
+      "sub52": "Fire Resistant Steel Pipes",
+      "sub53": "Fire Resistant Extension Pipes",
+      "sub54": "Gas Fire Suppression System",
+      "sub55": "Gas Fire Suppression System",
+      "sub56": "Fire Pro Gas Fire Suppression System",
+      "sub57": "Fire department Connection",
+      "sub59": "FM200 System"
+    },
+    "alarm": {
+      "al1": "EXIT Sticker Board",
+      "al2": "Emergency Fire Resistant Door",
+      "al3": "Emergency Fire Resistant Door",
+      "al4": "Emergency Fire Resistant Door English",
+      "al5": "Fire Blanket Size 5",
+      "al6": "Fire Blanket Size 180",
+      "al7": "6 inch Alarm Bell Lifco English",
+      "al8": "24 V Alarm Bell",
+      "al9": "0.5 inch EMT Coupling",
+      "al10": "Siren",
+      "al11": "Alarm Siren with Flasher Lifco English",
+      "al12": "Alarm Siren with Flasher Simplex Brand",
+      "al13": "Siren Zeta Brand",
+      "al14": "Fire Resistant TESHEKI Cable",
+      "al15": "Glass Breaker Lifco English",
+      "al16": "CO Detector Elite Brand",
+      "al17": "Heat Detector Elite Brand",
+      "al18": "sounder Smoke Detector Chinese",
+      "al19": "Smoke Detector Chinese Elite Brand",
+      "al20": "Smoke Detector",
+      "al21": "Malaysian Emergency Light Regular Bulb",
+      "al22": "Malaysian Emergency Light LED",
+      "al23": "Heat Detectors",
+      "al24": "Addressable Control Panel 2 Loops Simplex Brand",
+      "al25": "Fire Alarm Panel Context English Brand",
+      "al26": "F200 System Alarm Control Panel",
+      "al27": "Single Sided Exit Sign",
+      "al28": "Double Sided Exit Sign",
+      "al29": "Conventional Fire Alarm Panel _ Elite Brand",
+      "al30": "Zeta Brand Glass Breaker Set",
+      "al31": "Emergency Exit",
+      "al32": "0.5 inch Connector",
+      "al33": "EMT Pipes",
+      "al34": "Large Electric Alarm Horn",
+      "al35": "24V Alarm Bell",
+      "al36": "EMT Accessories",
+      "al37": "Nokhba brand siren alarm",
+      "al38": "Nokhba brand traditional fire alarm control panel"
+    }
+  },
+  "links": {
+    "lblhome": "Home",
+    "lblabout": "About",
+    "lblprojects": "Projects",
+    "lblproducts": "Products",
+    "lblsupport": "Support",
+    "lblpages": "Pages"
+  },
+  "hero": {
+    "h1Title": "Nokhba Contracting Systems",
+    "description-1": "We are Elite Systems Contracting Company, approved by Civil Defense.",
+    "description-2": "We specialize in safety work that ensures the safety of the building, covering electrical, mechanical, and architectural aspects, especially firefighting and fire alarm systems for commercial and residential buildings.",
+    "btnKnowMore": "Learn more"
+  },
+  "goals": {
+    "goalsTitle": "Our Goals",
+    "goalsSubTitle": "Nokhba Systems delivers safety solutions that protect lives and properties with innovation and reliability.",
+    "lblVision": "Supporting Vision 2030",
+    "lblVisionDesc": " Our development process is strategically designed to support the ambitious goals of Saudi Arabia's Vision 2030. By prioritizing sustainable growth and innovation, we contribute to the nation's economic diversification and social transformation, ensuring our projects resonate with the Kingdom's future aspirations.",
+    "lblPartnershipTitle": "Cultivating Premier Partnerships",
+    "lblPartnershipDesc": "We focus on cultivating premier client partnerships by delivering tailored solutions and exceptional service. Our approach is grounded in active listening, understanding client needs, and providing innovative, value-driven solutions.",
+    "lblAfterSalesTitle": "Commitment to After-Sales Excellence",
+    "lblAfterSalesDesc": "Our commitment to excellence extends beyond the initial sale, with a robust after-sales service and maintenance program designed to ensure complete customer satisfaction. We provide swift, efficient, and high-quality support to address any issues.",
+    "lblValueDrivenTitle": "Balancing Value and Effectiveness",
+    "lblValueDrivenDesc": "We are dedicated to providing products of moderate value that are essential for preserving lives and property. Our offerings are meticulously designed to balance affordability with effectiveness, ensuring accessible safety solutions for all. By focusing on quality and reliability.",
+    "lblCivilDefenseTitle": "Enhancing Public Safety",
+    "lblCivilDefenseDesc": "We actively engage with the General Directorate of Civil Defense to enhance public safety and emergency preparedness. Through close collaboration, we participate in joint training, share best practices, and develop innovative safety solutions. Our efforts ensure coordinated and effective responses to emergencies.",
+    "lblCivilProductsTitle": "Comprehensive Civil Defense Solutions",
+    "lblCivilProductsDesc": "We offer a complete range of civil defense products designed to meet the highest standards of safety and reliability. Our portfolio includes advanced solutions for fire safety, emergency response, and disaster preparedness, ensuring comprehensive protection for communities and organizations.",
+    "lblQualityStandardsTitle": "Upholding the Highest Quality Standards",
+    "lblQualityStandardsDesc": "We are dedicated to applying the highest standards of quality in every aspect of our work. From supplies and installations to maintenance, sales, spare parts, and repairs."
+  },
+  "video": {
+    "videoTitle": "We are ready to help",
+    "videoSubTitle": "Explore how we can enhance your building's safety standards."
+  },
+  "successPartners": {
+    "successTitle": "Our Partners in Success and Excellence",
+    "successSubTitle": "Together in Driving Innovation"
+  },
+  "firstAbout": {
+    "firstAboutTitle": "Our Services in the Field of Civil Defense",
+    "firstAboutDesc": "Our civil defense services encompass comprehensive solutions such as fire alarm systems, firefighting systems, regular maintenance and after-sales support. We prioritize empowering attendees with the knowledge to protect critical business applications through engaging panel discussions and roundtables.",
+    "fireAlarmSystems": "Fire Alarm Systems",
+    "firefightingSystems": "Firefighting Systems",
+    "airConditioningSystems": "Air Conditioning Systems",
+    "periodicMaintenance": "Periodic Maintenance",
+    "afterSalesServices": "After-sales Services",
+    "returnOfDamagedProducts": "Return Damaged Products"
+  },
+  "secondAbout": {
+    "commitmentToSafetyTitle": "Commitment to Safety",
+    "commitmentToSafetyDesc": "Our policy confirms our commitment to providing the safest possible work environment for employees, visitors, and subcontractors.",
+
+    "keyObjectivesTitle": "Key Objectives",
+    "keyObjectivesDesc": "We ensure everyone is aware of their Health and Safety responsibilities, provide safe work sites, deliver appropriate training, and design facilities with the latest technology.",
+
+    "continuousImprovementTitle": "Continuous Improvement",
+    "continuousImprovementDesc": "We commit to providing necessary resources, reporting incidents promptly, and continuously improving Health and Safety management systems."
+  },
+
+  "faqs": {
+    "faqsTtile": "FAQ",
+    "faqssubtitle": "Any Questions? Look Here",
+    "faqsDescription": "Explore our frequently asked questions to learn more about safety and security tools, professional safety equipment, the scope of safety and security measures, obtaining safety certificates, and civil defense permits. These detailed answers will help you understand how to maintain a safe and secure environment in various settings.",
+
+    "header-1": {
+      "header": "What are safety and security tools?",
+      "text01": "Safety and security tools encompass various devices, equipment, and technologies used to maintain safety and security in different environments, such as homes, institutions, and industrial settings. Common safety and security tools include:",
+      "list01": {
+        "list011": "Surveillance cameras",
+        "list012": "Alarm systems",
+        "list013": "Fire detectors",
+        "list014": "Harmful gas detectors"
+      },
+      "text02": "Safety tools vary based on needs and environments and are essential for maintaining general safety and preventing accidents and hazards."
+    },
+    "header-2": {
+      "header": "What are professional safety equipment?",
+      "text01": "Professional safety equipment includes tools and devices used to protect workers in various industries from injuries and hazards while performing their tasks. These items vary by industry and task and include:",
+      "list01": {
+        "list011": "Protective helmets",
+        "list012": "Safety glasses",
+        "list013": "Ear protection",
+        "list014": "Safety gloves",
+        "list015": "Safety harnesses"
+      },
+      "text02": "These tools ensure worker safety in various industries, reducing occupational injuries and accidents, and creating a safe and healthy work environment."
+    },
+    "header-3": {
+      "header": "What encompasses safety and security?",
+      "text01": "Safety and security are essential in any work or living environment, involving policies, procedures, and practices aimed at protecting individuals, property, and the environment from risks and accidents. Key points include:",
+      "list01": {
+        "list011": "Risk analysis",
+        "list012": "Training and awareness",
+        "list013": "Preventive measures",
+        "list014": "Emergency management",
+        "list015": "Compliance with laws and regulations"
+      },
+      "text02": "Implementing these points helps create a safe and healthy environment for work and living, reducing the risk of injuries and accidents."
+    },
+    "header-4": {
+      "header": "What is a safety certificate?",
+      "text01": "A safety certificate is a document that proves an individual has completed training or passed an exam related to occupational safety and health concepts and preventive measures. These certificates vary by industry and are often required for working in environments with potential health and safety risks.",
+      "list01": {
+        "list011": "Construction Occupational Safety and Health Certificate",
+        "list012": "Oil and Gas Safety Certificate",
+        "list013": "Manufacturing Safety Certificate",
+        "list014": "Food Safety and Hygiene Certificate",
+        "list015": "Healthcare Safety Certificate"
+      }
+    },
+    "header-5": {
+      "header": "How to obtain a civil defense permit?",
+      "text01": "Obtaining a civil defense permit involves following specific steps and procedures to ensure the facility complies with legal safety standards. The general steps are:",
+      "list01": {
+        "list011": "Submit the application",
+        "list012": "Review plans and documents",
+        "list013": "Inspection and examination",
+        "list014": "Make necessary adjustments and repairs (if needed)",
+        "list015": "Issuance of the permit",
+        "list016": "Renewal and periodic maintenance"
+      }
+    }
+  },
+  "Testimonial": {
+    "title": "What Our Users Say",
+    "subTitle": "Hear from our satisfied customers about their experiences with our products and services.",
+    "subTitle02": "See Our Reviews",
+
+    "content01": "Great service and excellent prices! The staff at Nokhba Systems are very friendly and helpful. Highly recommend them for safety equipment.",
+    "content02": "I recently purchased some safety products from Nokhba Systems, and I couldn't be happier. Their staff is incredibly knowledgeable and helpful, guiding me through the best options for my needs. The prices were reasonable, and the quality of the products was outstanding. This company truly stands out in the safety equipment market. Will definitely be returning!",
+    "content03": "Exceptional service! I want to extend my gratitude to all the staff, especially Mr. Hussein El-Gendy, for his integrity and outstanding customer care. Their professionalism and dedication truly make a difference."
+  },
+  "docs": {
+    "title": "Company Documents",
+    "subTitle": "We are Licensed Experts in Safety & Compliance"
+  },
+  "aboutPage": {
+    "title": "About Us",
+    "desc": "Welcome to Nokhba! We provide top-quality technology and great service to help you succeed."
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "desc": "We’re here to help! Whether you have questions about our services, need support, or just want to learn more about what we do, feel free to reach out. Our team of experts is ready to assist you with any inquiries. Let's connect and see how we can work together!",
+    "lblhelp": "Need Help? Open a Ticket",
+    "lblcontact": "Our support team will get back to you ASAP via email.",
+    "lblname": " Your Name",
+    "lblemail": "Your Email",
+    "lblmessage": " Your Message",
+    "lblsubmitting": "Submitting",
+    "lblsubmit": "Submit Ticket",
+    "lblfollowus": "Follow us on Social Media",
+    "lblstayconnect": "Stay connected and get the latest updates by following us on social media."
+  },
+  "footer": {
+    "subtitle": "We are Nokhba Contracting Systems Company, approved by Civil Defense.",
+    "lblusefullinks": "Useful Links",
+    "lblproducts": "Our Products",
+    "lblFaqs": "FAQs",
+    "lblAbout": "About Us",
+    "lblTerms": "Terms",
+    "lbldocs": "Company Documents",
+    "lblreviews": "Reviews",
+    "lblSupport": "Support & Help",
+    "lblticket": "Open Support Ticket",
+    "lblServices": "Our Services"
+  }
+}
