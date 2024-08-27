@@ -16,7 +16,6 @@ const Header = () => {
   const usePathName = usePathname();
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [sticky, setSticky] = useState(false);
-  const [openIndex, setOpenIndex] = useState(-1);
 
   useEffect(() => {
     const handleStickyNavbar = () => setSticky(window.scrollY >= 80);
@@ -25,12 +24,11 @@ const Header = () => {
   }, []);
 
   const navbarToggleHandler = () => setNavbarOpen(!navbarOpen);
-  const handleSubmenu = (index) =>
-    setOpenIndex(openIndex === index ? -1 : index);
+
   return (
     <header
       dir={dir}
-      className={`header left-0 top-0 z-40 flex w-full items-center ${
+      className={`left-0 top-0 z-40 flex h-[128px] w-full items-center bg-[#000C1D] ${
         sticky
           ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
           : "absolute bg-transparent"
@@ -87,7 +85,7 @@ const Header = () => {
               </button>
               <nav
                 id="navbarCollapse"
-                className={`navbar absolute end-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                className={` absolute end-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                   navbarOpen
                     ? "visibility top-full opacity-100"
                     : "invisible top-[120%] opacity-0"
@@ -109,21 +107,8 @@ const Header = () => {
                         </I18Link>
                       ) : (
                         <>
-                          <p
-                            onClick={() => handleSubmenu(index)}
-                            className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
-                          >
+                          <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">
                             {menuItem.title}
-                            <span className="pl-3">
-                              <svg width="20" height="20" viewBox="0 0 20 20">
-                                <path
-                                  fillRule="evenodd"
-                                  clipRule="evenodd"
-                                  d="M6.29289 8.8427C6.68342 8.45217 7.31658 8.45217 7.70711 8.8427L12 13.1356L16.2929 8.8427C16.6834 8.45217 17.3166 8.45217 17.7071 8.8427C18.0976 9.23322 18.0976 9.86639 17.7071 10.2569L12 15.964L6.29289 10.2569C5.90237 9.86639 5.90237 9.23322 6.29289 8.8427Z"
-                                  fill="currentColor"
-                                />
-                              </svg>
-                            </span>
                           </p>
                         </>
                       )}
@@ -132,7 +117,7 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
-            <div className="flex items-center justify-end gap-2 pe-12 lg:pr-0">
+            <div className="flex items-center justify-end gap-4 pe-12 lg:pr-0">
               <I18Link href="/" locale={locale === "ar" ? "en" : "ar"}>
                 <button className="border-gray-3 dark:border-dark-3 inline-block rounded-full border px-2 py-1 text-xs font-normal text-black transition hover:border-primary hover:bg-primary hover:text-white dark:text-white md:px-3 md:text-base">
                   {locale === "en" ? "العربيه" : "English"}

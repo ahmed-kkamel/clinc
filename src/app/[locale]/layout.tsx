@@ -29,12 +29,15 @@ export default async function RootLayout({
       lang={locale}
       dir={locale === "ar" ? "rtl" : "ltr"}
     >
-      <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
+      <body
+        className={`bg-[#FCFCFC] dark:bg-black ${inter.className} flex min-h-screen flex-col  `}
+      >
         <NextIntlClientProvider messages={messages}>
           <Providers>
             <Header />
             {children}
-            {/* <Footer /> */}
+
+            <Footer />
             {/* <ScrollToTop /> */}
           </Providers>
         </NextIntlClientProvider>
