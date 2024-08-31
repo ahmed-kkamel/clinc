@@ -5,7 +5,7 @@ export default function CarouselWithIndicators(): JSX.Element {
   return (
     <>
       <TECarousel showControls showIndicators ride="carousel">
-        <div className="relative w-full overflow-hidden after:clear-both after:block after:content-[''] z-[100]">
+        <div className="relative z-[100] w-full overflow-hidden after:clear-both after:block after:content-['']">
           <TECarouselItem
             itemID={1}
             className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
@@ -18,10 +18,10 @@ export default function CarouselWithIndicators(): JSX.Element {
           </TECarouselItem>
           <TECarouselItem
             itemID={2}
-            className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+            className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           >
             <img
-               src="D:\startup-nextjs-main\public\images\blog\post-01.jpg"
+              src="D:\startup-nextjs-main\public\images\blog\post-01.jpg"
               className="block w-full"
               alt="..."
             />
@@ -31,7 +31,7 @@ export default function CarouselWithIndicators(): JSX.Element {
             className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           >
             <img
-               src="D:\startup-nextjs-main\public\images\blog\post-01.jpg"
+              src="D:\startup-nextjs-main\public\images\blog\post-01.jpg"
               className="block w-full"
               alt="..."
             />

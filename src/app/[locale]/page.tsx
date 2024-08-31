@@ -1,4 +1,5 @@
 import ScrollUp from "@/components/Common/ScrollUp";
+import Hero from "@/components/hero";
 
 import { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
@@ -15,6 +16,8 @@ export default function Home({ params: { locale } }) {
   return (
     <>
       <ScrollUp />
+      <Hero />
+      asd
     </>
   );
 }
