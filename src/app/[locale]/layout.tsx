@@ -33,17 +33,12 @@ export default async function RootLayout({
         className={`bg-[#FCFCFC] dark:bg-black ${inter.className} flex min-h-screen flex-col  `}
       >
         <NextIntlClientProvider messages={messages}>
-          <Providers>
-            <Header />
-            {children}
-
-            <Footer />
-            {/* <ScrollToTop /> */}
-          </Providers>
+          <Header />
+          {children}
+          {/* <Footer /> */}
+          {/* <ScrollToTop /> */}
         </NextIntlClientProvider>
       </body>
     </html>
   );
 }
-
-import { Providers } from "./providers";

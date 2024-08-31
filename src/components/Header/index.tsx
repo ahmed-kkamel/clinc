@@ -5,12 +5,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Link as I18Link } from "./../../navigation";
-import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import { useTranslations } from "next-intl";
 
 const Header = () => {
-  const t = useTranslations("links");
+  // const t = useTranslations("links");
   const locale = useLocale();
   const dir = locale === "ar" ? "rtl" : "ltr";
   const usePathName = usePathname();
@@ -28,7 +27,7 @@ const Header = () => {
   return (
     <header
       dir={dir}
-      className={`left-0 top-0 z-40 flex h-[128px] w-full items-center bg-[#000C1D] ${
+      className={`header left-0 top-0 z-40 flex h-[128px] w-full items-center bg-[#000C1D] ${
         sticky
           ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
           : "absolute bg-transparent"
@@ -123,7 +122,6 @@ const Header = () => {
                   {locale === "en" ? "العربيه" : "English"}
                 </button>
               </I18Link>
-              <ThemeToggler />
             </div>
           </div>
         </div>
