@@ -1,3 +1,4 @@
+import BookingServices from "@/components/BookingServices";
 import ScrollUp from "@/components/Common/ScrollUp";
 import HealingStories from "@/components/HealingStories";
 import Hero from "@/components/hero";
@@ -21,6 +22,7 @@ export default function Home({ params: { locale } }) {
       <Hero />
       <TherapeuticServices />
       <HealingStories />
+      <BookingServices />
     </>
   );
 }
