@@ -1,5 +1,7 @@
 import BookingServices from "@/components/BookingServices";
+import ClientReview from "@/components/ClientReview";
 import ScrollUp from "@/components/Common/ScrollUp";
+import Footer from "@/components/Footer";
 import HealingStories from "@/components/HealingStories";
 import Hero from "@/components/hero";
 import Partners from "@/components/Partners";
@@ -25,6 +27,8 @@ export default function Home({ params: { locale } }) {
       <HealingStories />
       <BookingServices />
       <Partners />
+      <ClientReview />
+      <Footer />
     </>
   );
 }
