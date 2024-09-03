@@ -1,4 +1,5 @@
 import ScrollUp from "@/components/Common/ScrollUp";
+import HealingStories from "@/components/HealingStories";
 import Hero from "@/components/hero";
 import TherapeuticServices from "@/components/TherapeuticServices";
 
@@ -19,6 +20,7 @@ export default function Home({ params: { locale } }) {
       <ScrollUp />
       <Hero />
       <TherapeuticServices />
+      <HealingStories />
     </>
   );
 }
