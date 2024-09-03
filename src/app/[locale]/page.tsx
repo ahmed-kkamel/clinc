@@ -2,6 +2,7 @@ import BookingServices from "@/components/BookingServices";
 import ScrollUp from "@/components/Common/ScrollUp";
 import HealingStories from "@/components/HealingStories";
 import Hero from "@/components/hero";
+import Partners from "@/components/Partners";
 import TherapeuticServices from "@/components/TherapeuticServices";
 
 import { Metadata } from "next";
@@ -23,6 +24,7 @@ export default function Home({ params: { locale } }) {
       <TherapeuticServices />
       <HealingStories />
       <BookingServices />
+      <Partners />
     </>
   );
 }
