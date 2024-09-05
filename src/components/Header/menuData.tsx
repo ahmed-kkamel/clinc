@@ -9,7 +9,7 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "أماكن العيادات",
-    // path: "/about",
+    path: "/clinics-locations",
   },
   {
     id: 5,
