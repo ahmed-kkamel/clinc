@@ -1,5 +1,11 @@
+import BookingServices from "@/components/BookingServices";
+import ClientReview from "@/components/ClientReview";
 import ScrollUp from "@/components/Common/ScrollUp";
+import Footer from "@/components/Footer";
+import HealingStories from "@/components/HealingStories";
 import Hero from "@/components/hero";
+import Partners from "@/components/Partners";
+import TherapeuticServices from "@/components/TherapeuticServices";
 
 import { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
@@ -17,7 +23,12 @@ export default function Home({ params: { locale } }) {
     <>
       <ScrollUp />
       <Hero />
-      asd
+      <TherapeuticServices />
+      <HealingStories />
+      <BookingServices />
+      <Partners />
+      <ClientReview />
+      <Footer />
     </>
   );
 }
