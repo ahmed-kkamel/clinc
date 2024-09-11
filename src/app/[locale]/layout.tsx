@@ -36,7 +36,8 @@ export default async function RootLayout({
           <Header />
           {children}
           {/* <Footer /> */}
-          {/* <ScrollToTop /> */}
+          <ScrollToTop />
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

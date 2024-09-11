@@ -2,7 +2,7 @@ import Partner from "./chunks/Partner";
 import { partners } from "./const/partners";
 const Partners: React.FC = () => {
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto  pt-[182px]">
       <h2 className="mb-8 text-right text-2xl font-bold text-[#000C1D]">
         شركائنا
       </h2>

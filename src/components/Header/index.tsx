@@ -27,14 +27,15 @@ const Header = () => {
   return (
     <header
       dir={dir}
-      className={`header left-0 top-0 z-40 flex h-[128px] w-full items-center bg-[#000C1D] ${
-        sticky
-          ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
-          : "absolute bg-transparent"
-      }`}
+      className={`flex h-[128px] w-full items-center bg-[#000C1D] `}
+      //   ${
+      //   sticky
+      //     ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
+      //     : "bg-[#000C1D]"
+      // }
     >
       <div className="container">
-        <div className="relative -mx-4 flex items-center justify-between">
+        <div className="flex items-center justify-between">
           <div className="w-60 max-w-full px-4 xl:me-12">
             <I18Link
               href="/"
@@ -48,13 +49,6 @@ const Header = () => {
                 width={140}
                 height={30}
                 className="w-full dark:hidden"
-              />
-              <Image
-                src="/images/logo/logo.svg"
-                alt="logo"
-                width={140}
-                height={30}
-                className="hidden w-full dark:block"
               />
             </I18Link>
           </div>
@@ -90,23 +84,26 @@ const Header = () => {
                     : "invisible top-[120%] opacity-0"
                 }`}
               >
-                <ul className="block items-center lg:flex lg:gap-12">
+                <ul className="flex items-center justify-center gap-6  ">
                   {menuData.map((menuItem, index) => (
-                    <li key={index} className="group relative">
+                    <li
+                      key={index}
+                      className="px-[32px] py-2 text-base font-semibold text-[#B8E2F6] "
+                    >
                       {menuItem.path ? (
                         <I18Link
                           href={menuItem.path}
-                          className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
-                            usePathName === menuItem.path
-                              ? "text-primary dark:text-white"
-                              : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-                          }`}
+                          // className={`flex  lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                          //   usePathName === menuItem.path
+                          //     ? " "
+                          //     : " hover:text-primary"
+                          // }`}
                         >
                           {menuItem.title}
                         </I18Link>
                       ) : (
                         <>
-                          <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">
+                          <p className="text-[#FFFFFF]group-hover:text-primary flex cursor-pointer items-center justify-between py-2  text-base">
                             {menuItem.title}
                           </p>
                         </>
@@ -118,7 +115,7 @@ const Header = () => {
             </div>
             <div className="flex items-center justify-end gap-4 pe-12 lg:pr-0">
               <I18Link href="/" locale={locale === "ar" ? "en" : "ar"}>
-                <button className="border-gray-3 dark:border-dark-3 inline-block rounded-full border px-2 py-1 text-xs font-normal text-black transition hover:border-primary hover:bg-primary hover:text-white dark:text-white md:px-3 md:text-base">
+                <button className="border-gray-3 dark:border-dark-3 inline-block rounded-full border px-2 py-1 text-xs font-normal text-white transition hover:border-[#B8E2F6] hover:bg-[#B8E2F6] hover:text-dark  md:px-3 md:text-base">
                   {locale === "en" ? "العربيه" : "English"}
                 </button>
               </I18Link>
@@ -131,3 +128,14 @@ const Header = () => {
 };
 
 export default Header;
+
+// const Header = () => {
+//   return (
+//     <header className="flex h-[128px] w-full items-center bg-[#000C1D]">
+//       <div className="container">
+//         <p className="text-[25px] font-black text-white">Logo</p>
+//       </div>
+//     </header>
+//   );
+// };
+// export default Header;

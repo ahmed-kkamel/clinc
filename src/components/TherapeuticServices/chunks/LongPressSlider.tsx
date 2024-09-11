@@ -69,7 +69,7 @@ const LongPressSlider: React.FC = () => {
   return (
     <div
       ref={sliderRef}
-      className="scrollbar-hide flex gap-4 overflow-x-scroll"
+      className="flex cursor-grab gap-4 overflow-x-scroll scrollbar-hide"
       onMouseDown={startDrag}
       onTouchStart={startDrag}
     >
