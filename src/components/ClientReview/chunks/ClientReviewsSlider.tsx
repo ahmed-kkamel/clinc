@@ -69,14 +69,14 @@ const ClientReviewsSlider: React.FC = () => {
   return (
     <div
       ref={sliderRef}
-      className="scrollbar-hide flex cursor-grab gap-4 overflow-x-scroll"
+      className="flex cursor-grab gap-4 overflow-x-scroll py-3 scrollbar-hide"
       onMouseDown={startDrag}
       onTouchStart={startDrag}
     >
       {reviews.map((review) => (
         <div
           key={review.id}
-          className="flex min-w-[500px] max-w-[500px] justify-between gap-4 rounded-lg bg-white p-4 shadow-lg"
+          className="flex min-w-[500px] max-w-[500px] justify-between gap-4 rounded-lg bg-white p-4 drop-shadow-md"
         >
           <Image
             src={review.imageSrc}

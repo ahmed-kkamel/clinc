@@ -28,7 +28,6 @@ export default function Home({ params: { locale } }) {
       <BookingServices />
       <Partners />
       <ClientReview />
-      <Footer />
     </>
   );
 }
