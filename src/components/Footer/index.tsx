@@ -21,6 +21,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Clinics Locations */}
+        {/* KKKKKKKKKKKA */}
         <div className="flex flex-col gap-6">
           <h3 className="text-2xl font-semibold">أماكن العيادات</h3>
           <ul className="flex flex-col gap-4 text-[#E5E7EB]">
@@ -39,7 +40,7 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Social Media Icons */}
-      <div className="container mx-auto mt-8 flex justify-center space-x-4 rtl:space-x-reverse">
+      <div className="container flex justify-center mx-auto mt-8 space-x-4 rtl:space-x-reverse">
         <a href="#" className="text-white hover:text-gray-400">
           <i className="fab fa-facebook"></i>
         </a>
