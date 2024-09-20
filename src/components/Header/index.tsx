@@ -83,19 +83,19 @@ const Header = () => {
           </div>
 
           {/* Language Dropdown */}
-          <div className="relative flex items-center justify-between gap-4 pe-12 lg:pe-0">
+          <div className="relative flex items-end justify-between gap-4 pe-12 lg:pe-0">
             <button
-              className={`flex items-center ${dropdownOpen ? "flex-row" : "flex-col"} gap-3 text-white`}
+              className={`flex items-center  ${dropdownOpen ? "flex-row" : "flex-col"} gap-3 text-white`}
               onClick={handleLanguageClick}
             >
-              <Image src="/images/logo/language-icon.svg" width={30} height={30} alt="language access icon" />
+              <Image src="/images/logo/language-icon.svg" width={24} height={24} className="w-6 h-6" alt="language access icon" />
               <span className="text-sm transition-opacity duration-300">{locale === "en" ? "Language" : "اللغة"}</span>
             </button>
 
             {dropdownOpen && (
               <div
                 ref={dropdownRef}
-                className="flex flex-col gap-2 absolute top-10 start-[-70px] w-[200px] rounded-md bg-[#000C1D] text-white shadow-lg z-10 p-4"
+                className="flex flex-col gap-2 absolute top-10 end-[-40px] w-[200px] rounded-md bg-[#000C1D] text-white shadow-lg z-10 p-4"
               >
                 {(["ar", "en"] as const).map((lang) => (
                   <I18Link key={lang} href="/" locale={lang}>
@@ -128,16 +128,20 @@ const Header = () => {
               <Image src="/images/logo/burger-menu-mobile.svg" width={72} height={72} alt="menu icon" />
             </button>
             {hamburgerOpen && (
-              <div className="absolute top-12 end-0 w-52 bg-[#000C1D] text-white z-20">
-                <ul className="flex flex-col items-center justify-center py-4">
+              <div className="absolute top-14 end-[-14px] w-52 bg-[#000C1D] text-white z-20">
+                <ul className="flex flex-col items-center justify-center ">
                   {menuData.map((menuItem, index) => (
-                    <li key={index} className="py-2 text-base font-semibold text-[#B8E2F6] w-full flex justify-center border-b border-white">
-                      {menuItem.path ? (
-                        <I18Link href={menuItem.path}>{menuItem.title}</I18Link>
-                      ) : (
-                        <p className="text-[#FFFFFF] cursor-pointer">{menuItem.title}</p>
-                      )}
-                    </li>
+                    <>
+                      <li key={index} className="p-2 text-base font-semibold text-[#B8E2F6] w-full flex justify-center border-b-[.5px] border-[#FAF9F6] last:border-none">
+                        {menuItem.path ? (
+                          <>
+                            <I18Link href={menuItem.path}>{menuItem.title}</I18Link>
+                          </>
+                        ) : (
+                          <p className="text-[#FFFFFF] cursor-pointer">{menuItem.title}</p>
+                        )}
+                      </li>
+                    </>
                   ))}
                 </ul>
               </div>

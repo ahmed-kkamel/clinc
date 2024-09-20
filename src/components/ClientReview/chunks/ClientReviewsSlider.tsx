@@ -76,7 +76,7 @@ const ClientReviewsSlider: React.FC = () => {
       {reviews.map((review) => (
         <div
           key={review.id}
-          className="flex min-w-[500px] max-w-[500px] justify-between gap-3 md:gap-4 rounded-lg bg-white py-2 md:p-4 drop-shadow-md"
+          className="flex min-w-[350px] max-w-[350px]  md:min-w-[500px] md:max-w-[500px] justify-between gap-3 md:gap-4 rounded-lg bg-white py-2 md:p-4 drop-shadow-md"
         >
           <Image
             src={review.imageSrc}

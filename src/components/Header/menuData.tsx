@@ -14,7 +14,7 @@ const menuData: Menu[] = [
   {
     id: 5,
     title: "الخدمات",
-    path: "/our-sevices",
+    path: "/our-services",
   },
   {
     id: 3,
