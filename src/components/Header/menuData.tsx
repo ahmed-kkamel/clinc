@@ -21,5 +21,15 @@ const menuData: Menu[] = [
     title: "أراء العملاء",
     // path: "/contact",
   },
+  {
+    id: 3,
+    title: "الإنجازات",
+    // path: "/contact",
+  },
+  {
+    id: 3,
+    title: "المقالات",
+    // path: "/contact",
+  },
 ];
 export default menuData;

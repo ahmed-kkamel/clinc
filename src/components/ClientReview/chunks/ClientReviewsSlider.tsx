@@ -37,7 +37,7 @@ const ClientReviewsSlider: React.FC = () => {
       return;
     }
 
-    const walk = (x - startX) * 1.5; // Adjust scroll speed
+    const walk = (x - startX) * 1.5;
     sliderRef.current.scrollLeft = scrollLeft - walk;
   };
 
@@ -69,24 +69,24 @@ const ClientReviewsSlider: React.FC = () => {
   return (
     <div
       ref={sliderRef}
-      className="flex cursor-grab gap-4 overflow-x-scroll py-3 scrollbar-hide"
+      className="flex gap-4 py-2 overflow-x-scroll cursor-grab md:py-3 scrollbar-hide"
       onMouseDown={startDrag}
       onTouchStart={startDrag}
     >
       {reviews.map((review) => (
         <div
           key={review.id}
-          className="flex min-w-[500px] max-w-[500px] justify-between gap-4 rounded-lg bg-white p-4 drop-shadow-md"
+          className="flex min-w-[500px] max-w-[500px] justify-between gap-3 md:gap-4 rounded-lg bg-white py-2 md:p-4 drop-shadow-md"
         >
           <Image
             src={review.imageSrc}
             alt={review.name}
-            className="rounded-lg"
+            className="rounded-lg w-28 h-28 md:w-40 md:h-40"
             width={160}
             height={160}
           />
           <div className="flex flex-col items-start gap-1">
-            <h3 className="text-lg font-semibold text-[#5691AD]">
+            <h3 className="text-base md:text-lg font-semibold text-[#5691AD]">
               {review.name}
             </h3>
             <div className="flex items-center">
@@ -96,7 +96,7 @@ const ClientReviewsSlider: React.FC = () => {
                 </span>
               ))}
             </div>
-            <p className="text-sm leading-relaxed text-[#093448]">
+            <p className="text-xs md:text-sm leading-relaxed text-[#093448]">
               {review.reviewText}
             </p>
           </div>

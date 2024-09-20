@@ -16,30 +16,30 @@ const Slider: React.FC = () => {
   };
 
   return (
-    <div className="relative mx-auto flex min-h-[348px] w-full max-w-[1184px] items-center">
+    <div className="relative mx-auto flex  md:min-h-[348px] w-full max-w-[1184px] items-center">
       <button
         type="button"
         onClick={handlePrev}
-        className="absolute left-0 -translate-x-[50px] transform rounded-full bg-[#89CFF0] p-2 text-[#FFFFFF]"
+        className="absolute end-[40px] md:end-0 -translate-x-[50px] transform rounded-full bg-[#89CFF0] p-2 text-[#FFFFFF]"
         aria-label="Previous slide"
         title="Previous slide"
       >
         <FaArrowLeft size={20} />
       </button>
 
-      <div className="flex w-full items-center  overflow-hidden rounded-lg bg-[#000C1D]">
-        <div className="flex w-1/2 grow flex-col gap-2 p-4 text-white">
-          <h2 className="text-[40px] font-semibold text-[#FFFFFF]">
+      <div className="flex w-full items-center flex-col-reverse md:flex-row overflow-hidden rounded-lg bg-[#000C1D] gap-4">
+        <div className="flex flex-col h-56 gap-2 text-white px-7 md:w-1/2 md:p-4 md:grow text-start">
+          <h2 className="text-xl md:text-[40px] font-semibold text-[#FFFFFF]">
             {slides[currentSlide].title}
           </h2>
-          <p>{slides[currentSlide].subTitle}</p>
-          <p>{slides[currentSlide].description}</p>
+          <p className="text-base">{slides[currentSlide].subTitle}</p>
+          <p className="text-sm">{slides[currentSlide].description}</p>
         </div>
         <div>
           <Image
             src={slides[currentSlide].imageSrc}
             alt="Slide Image"
-            className="max-h-[316px] object-cover"
+            className="max-h-[200px] object-cover"
             width={482}
             height={316}
           />
@@ -49,7 +49,7 @@ const Slider: React.FC = () => {
       <button
         type="button"
         onClick={handleNext}
-        className="absolute right-0 z-10 translate-x-[50px] transform rounded-full bg-[#89CFF0] p-2 text-[#FFFFFF]"
+        className="absolute start-[40px] md:start-0 z-10 translate-x-[50px] transform rounded-full bg-[#89CFF0] p-2 text-[#FFFFFF]"
         aria-label="Next slide"
         title="Next slide"
       >
