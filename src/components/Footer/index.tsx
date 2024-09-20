@@ -21,7 +21,6 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Clinics Locations */}
-        {/* KKKKKKKKKKKA */}
         <div className="flex flex-col gap-6">
           <h3 className="text-2xl font-semibold">أماكن العيادات</h3>
           <ul className="flex flex-col gap-4 text-[#E5E7EB]">

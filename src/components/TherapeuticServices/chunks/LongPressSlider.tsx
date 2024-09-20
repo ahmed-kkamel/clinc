@@ -69,23 +69,23 @@ const LongPressSlider: React.FC = () => {
   return (
     <div
       ref={sliderRef}
-      className="flex cursor-grab gap-4 overflow-x-scroll scrollbar-hide"
+      className="flex gap-2 overflow-x-scroll cursor-grab md:gap-4 scrollbar-hide"
       onMouseDown={startDrag}
       onTouchStart={startDrag}
     >
       {items.map((item) => (
         <div
           key={item.id}
-          className="flex h-[213px] min-w-[213px] max-w-[213px] flex-col items-center justify-center gap-10 rounded-[20px] bg-[#DCF1FA] py-10"
+          className="flex h-36 md:h-[213px] min-w-52 max-w-52 md:min-w-[213px] md:max-w-[213px] flex-col items-center justify-center gap-5 md:gap-10 rounded-xl md:rounded-[20px] bg-[#DCF1FA] py-10"
         >
           <Image
             src={item.imageSrc}
             alt={item.title}
             width={66}
             height={66}
-            className="!h-16"
+            className="h-12 md:h-16"
           />
-          <p className="text-center text-[20px] font-medium text-[#000C1D]">
+          <p className="text-center text-sm md:text-[20px] font-medium text-[#000C1D]">
             {item.title}
           </p>
         </div>
