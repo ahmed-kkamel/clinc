@@ -19,7 +19,7 @@ const menuData: Menu[] = [
   {
     id: 3,
     title: "أراء العملاء",
-    // path: "/contact",
+    path: "/clients-reviews",
   },
   {
     id: 3,

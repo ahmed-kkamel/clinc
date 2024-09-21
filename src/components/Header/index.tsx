@@ -30,6 +30,7 @@ const Header = () => {
         hamburgerRef.current &&
         !hamburgerRef.current.contains(event.target)
       ) {
+        // Close both the language dropdown and the hamburger menu if user clicks outside
         setDropdownOpen(false);
         setHamburgerOpen(false);
       }
@@ -37,7 +38,9 @@ const Header = () => {
 
     document.addEventListener("mousedown", handleClickOutside);
 
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
 
   // Handle language dropdown click
@@ -52,6 +55,11 @@ const Header = () => {
     e.stopPropagation(); // Prevent propagation to the document
     setHamburgerOpen(!hamburgerOpen); // Toggle hamburger menu
     setDropdownOpen(false); // Close language dropdown if open
+  };
+
+  // Close hamburger menu when an option is clicked
+  const handleMenuItemClick = () => {
+    setHamburgerOpen(false); // Close hamburger when an option is selected
   };
 
   return (
@@ -131,17 +139,17 @@ const Header = () => {
               <div className="absolute top-14 end-[-14px] w-52 bg-[#000C1D] text-white z-20">
                 <ul className="flex flex-col items-center justify-center ">
                   {menuData.map((menuItem, index) => (
-                    <>
-                      <li key={index} className="p-2 text-base font-semibold text-[#B8E2F6] w-full flex justify-center border-b-[.5px] border-[#FAF9F6] last:border-none">
-                        {menuItem.path ? (
-                          <>
-                            <I18Link href={menuItem.path}>{menuItem.title}</I18Link>
-                          </>
-                        ) : (
-                          <p className="text-[#FFFFFF] cursor-pointer">{menuItem.title}</p>
-                        )}
-                      </li>
-                    </>
+                    <li key={index} className="p-2 text-base font-semibold text-[#B8E2F6] w-full flex justify-center border-b-[.5px] border-[#FAF9F6] last:border-none">
+                      {menuItem.path ? (
+                        <I18Link href={menuItem.path} onClick={handleMenuItemClick}>
+                          {menuItem.title}
+                        </I18Link>
+                      ) : (
+                        <p className="text-[#FFFFFF] cursor-pointer" onClick={handleMenuItemClick}>
+                          {menuItem.title}
+                        </p>
+                      )}
+                    </li>
                   ))}
                 </ul>
               </div>
